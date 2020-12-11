@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   font-family: "Josefin Sans", sans-serif;
+  background-color: black;
 }
 body header {
   height: 100vh;
@@ -117,7 +118,6 @@ body main .name h1 {
 }
 body .movies {
   padding-bottom: 25px;
-  padding: 0px 90px;
 }
 body .movies .pic_banner {
   display: flex;

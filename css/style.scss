@@ -7,6 +7,7 @@ $vip-font: 'Josefin Sans', sans-serif;
 body{
     margin: 0px;
     font-family: $vip-font;
+    background-color: $vip-color;
 
     // header
     header{
@@ -148,7 +149,6 @@ body{
     // movies
     .movies{
         padding-bottom: 25px;
-        padding: 0px 90px;
 
         .pic_banner{
             display: flex;
@@ -343,7 +343,7 @@ body{
 
     // art
     .art{
-        
+
         .pic_banner{
             display: flex;
             justify-content: space-around;
