@@ -117,6 +117,7 @@ body main .name h1 {
 }
 body .movies {
   padding-bottom: 25px;
+  padding: 0px 90px;
 }
 body .movies .pic_banner {
   display: flex;
@@ -130,7 +131,7 @@ body .movies .pic_banner .pic {
   margin-top: 20px;
 }
 body .movies .pic_banner_1 .pic1 {
-  background: url("../img/m_pic1.jpg") top/cover;
+  background: url("../img/m_pic1.jpg") center/cover;
 }
 body .movies .pic_banner_1 .pic2 {
   background: url("../img/m_pic2.jpg") center/cover;
@@ -141,7 +142,7 @@ body .movies .pic_banner_1 .pic3 {
 body .movies .pic_banner_1 .pic4 {
   background: url("../img/m_pic4.jpg") center/cover;
 }
-body .movies .pic_banner_1 .pic5 {
+body .movies .pic_banner_2 .pic5 {
   background: url("../img/m_pic5.jpg") center/cover;
 }
 body .movies .pic_banner_2 .pic6 {
@@ -153,10 +154,10 @@ body .movies .pic_banner_2 .pic7 {
 body .movies .pic_banner_2 .pic8 {
   background: url("../img/m_pic8.jpg") center/cover;
 }
-body .movies .pic_banner_2 .pic9 {
+body .movies .pic_banner_3 .pic9 {
   background: url("../img/m_pic9.jpg") center/cover;
 }
-body .movies .pic_banner_2 .pic10 {
+body .movies .pic_banner_3 .pic10 {
   background: url("../img/m_pic10.jpg") center/cover;
 }
 body .movies .pic_banner_3 .pic11 {
@@ -165,14 +166,17 @@ body .movies .pic_banner_3 .pic11 {
 body .movies .pic_banner_3 .pic12 {
   background: url("../img/m_pic12.jpg") center/cover;
 }
-body .movies .pic_banner_3 .pic13 {
+body .movies .pic_banner_4 .pic13 {
   background: url("../img/m_pic13.jpg") center/cover;
 }
-body .movies .pic_banner_3 .pic14 {
+body .movies .pic_banner_4 .pic14 {
   background: url("../img/m_pic14.jpg") center/cover;
 }
-body .movies .pic_banner_3 .pic15 {
+body .movies .pic_banner_4 .pic15 {
   background: url("../img/m_pic15.jpg") center/cover;
+}
+body .movies .pic_banner_4 .pic16 {
+  background: url("../img/m_pic16.jpg") center/cover;
 }
 body .wallpapers {
   padding-bottom: 25px;
@@ -245,19 +249,16 @@ body .music .mus_banner {
 body .games {
   padding-bottom: 25px;
 }
-body .games .pic_banner {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+body .games .swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-body .games .pic_banner .pic a img {
+body .games .swiper-slide {
+  background-position: center;
+  background-size: cover;
   width: 380px;
-  height: 550px;
-  margin-bottom: 25px;
-}
-body .games .pic_banner .pic a img:hover {
-  transform: scale(1.1);
-  transition: 1s;
+  height: 560px;
 }
 body .art .pic_banner {
   display: flex;

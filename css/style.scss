@@ -148,6 +148,7 @@ body{
     // movies
     .movies{
         padding-bottom: 25px;
+        padding: 0px 90px;
 
         .pic_banner{
             display: flex;
@@ -165,7 +166,7 @@ body{
         .pic_banner_1{
 
             .pic1{
-                background: url("../img/m_pic1.jpg") top / cover;
+                background: url("../img/m_pic1.jpg") center / cover;
             }
             .pic2{
                 background: url("../img/m_pic2.jpg") center / cover;
@@ -176,13 +177,13 @@ body{
             .pic4{
                 background: url("../img/m_pic4.jpg") center / cover;
             }
-            .pic5{
-                background: url("../img/m_pic5.jpg") center / cover;
-            }
         }
 
         .pic_banner_2{
-
+            
+            .pic5{
+                background: url("../img/m_pic5.jpg") center / cover;
+            }
             .pic6{
                 background: url("../img/m_pic6.jpg") center / cover;
             }
@@ -192,22 +193,26 @@ body{
             .pic8{
                 background: url("../img/m_pic8.jpg") center / cover; 
             }
+        }
+
+        .pic_banner_3{
+
             .pic9{
                 background: url("../img/m_pic9.jpg") center / cover;
             }
             .pic10{
                 background: url("../img/m_pic10.jpg") center / cover;
             }
-        }
-
-        .pic_banner_3{
-
             .pic11{
                 background: url("../img/m_pic11.jpg") center / cover;
             }
             .pic12{
                 background: url("../img/m_pic12.jpg") center / cover;
             }
+        }
+
+        .pic_banner_4{
+
             .pic13{
                 background: url("../img/m_pic13.jpg") center / cover;
             }
@@ -216,6 +221,9 @@ body{
             }
             .pic15{
                 background: url("../img/m_pic15.jpg") center / cover;
+            }
+            .pic16{
+                background: url("../img/m_pic16.jpg") center / cover;
             }
         }
     }
@@ -319,27 +327,23 @@ body{
     .games{
         padding-bottom: 25px;
 
-        .pic_banner{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-
-            .pic a img{
-                width: 380px;
-                height: 550px;
-                margin-bottom: 25px;
-            }
-
-            .pic a img:hover{
-                transform: scale(1.1);
-                transition: 1s;
-            }
+        .swiper-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+      
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 380px;
+            height: 560px;
         }
     }
 
     // art
     .art{
-
+        
         .pic_banner{
             display: flex;
             justify-content: space-around;
